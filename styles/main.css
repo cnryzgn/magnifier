@@ -1,0 +1,41 @@
+@import url('magnifier/magnifier.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.content {
+    width: 100%;
+    max-width: 1265px;
+    margin: 30px auto;
+    padding: 10px 30px;
+    z-index: 9999;
+    line-height: 2.9vh;
+    margin: 10vh;
+}
+
+.content h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 21px;
+    line-height: 1em;
+}
+
+.content p {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+@media (max-width: 1020px) {
+    .content {
+        padding: 10px;
+        margin: 10px;
+        margin-bottom: 165px;
+    }
+}
